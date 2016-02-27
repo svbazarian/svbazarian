@@ -3,6 +3,18 @@ body {
 	padding-left: 80px;
 }
 
-h2 {color: white}
-h4 {color: #555a5b}
-h5 {color: #abadad}
+h2 {color: white;
+	font-family: Quatro slab;
+	font-size: 36 px;
+	font-style: normal;}
+
+h3 {color: white;
+	font-family: Quatro Slab;
+	font-size: 24 px}
+
+h4 {color: #555a5b;
+	font-size: 16 px;}
+
+h5 {color: #abadad;
+	font-family: LFT Etica;
+	font-size: 16 px ,}
