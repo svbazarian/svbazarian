@@ -18,3 +18,27 @@ h4 {color: #555a5b;
 h5 {color: #abadad;
 	font-family: LFT Etica;
 	font-size: 16 px ,}
+
+button
+{
+	display: block;
+	width: 121px;  height: 42px;
+	font-size: 14px;
+	font-weight: semibold;
+	text-transform: uppercase;
+	padding: 0px 0px;
+	margin: 20px auto;
+	color: #ffffff;
+	background-color: #01ccce;
+	background: -webkit-linear-gradient(#888, #555);
+	background: linear-gradient(#01ccce, #01ccce);
+	border: 0 none;
+	border-radius: 0px;
+	text-shadow: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+a {
+    color: #01bfc1;
+}
