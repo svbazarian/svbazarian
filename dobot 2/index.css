@@ -22,22 +22,15 @@ h3 {
 	font-size: 24 px;
     padding-top: 35px;
     padding-bottom: 35px;
-	border-top-color: #31393b;
-	border-top-style: dotted;
-	border-top-width: 1px;
-	
-
+	border-bottom-color: #31393b;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-
 }
 
 h4 {
 	color: #555a5b;
 	font-size: 16 px;
-}
-
-.content{
-	width:30%;
-	float:left;
-	margin-right:5%;
 }
 
 h5 {
@@ -48,10 +41,11 @@ h5 {
 
 article {
 	overflow: auto;
-	padding:3%;
 }
 
 .productimage {
+	float: right;
+	margin: 177px 80px;
 }
 
 button
@@ -72,21 +66,9 @@ button
 	text-shadow: none;
 	box-shadow: none;
 	cursor: pointer;
-	position:absolute;
-	left:60px;
-	top:0px;
-
-	
+	position: relative;
 }
 
 a {
     color: #01bfc1;
-}
-
-.link{
-	float:none;
-}
-
-.buttonbox{
-	position:relative;
 }
