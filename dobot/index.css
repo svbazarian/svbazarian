@@ -9,24 +9,48 @@ body {
 	width: 100%;
 }
 
-h2 {
-	color: white;
-	font-family: Quatro slab;
-	font-size: 36 px;
-	font-style: normal;
+@media(max-width: 859px) {
+	h2 {
+		color: white;
+		font-family: Quatro slab;
+		font-size: 18 px;
+		font-style: normal;
+	}
 }
 
-h3 {
-	color: white;
-	font-family: Quatro Slab;
-	font-size: 24 px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-	border-top-color: #31393b;
-	border-top-style: dotted;
-	border-top-width: 1px;
-	
+@media (min-width: 860px) {
+	h2 {
+		color: white;
+		font-family: Quatro slab;
+		font-size: 36 px;
+		font-style: normal;
+	}
+}
 
+@media (max-width: 859px) {
+	h3 {
+		color: white;
+		font-family: Quatro Slab;
+		font-size: 12 px;
+    	padding-top: 35px;
+    	padding-bottom: 35px;
+		border-top-color: #31393b;
+		border-top-style: dotted;
+		border-top-width: 1px;
+	}
+}
+
+@media (min-width: 860px) {
+	h3{
+		color: white;
+		font-family: Quatro Slab;
+		font-size: 24 px;
+    	padding-top: 35px;
+    	padding-bottom: 35px;
+		border-top-color: #31393b;
+		border-top-style: dotted;
+		border-top-width: 1px;
+	}
 }
 
 h4 {
