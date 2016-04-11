@@ -8,39 +8,13 @@ body {
 	margin-left: auto;
 	width: 100%;
 }
-
-@media(max-width: 859px) {
 	h2 {
 		color: white;
 		font-family: Quatro slab;
 		font-size: 18 px;
 		font-style: normal;
 	}
-}
 
-@media (min-width: 860px) {
-	h2 {
-		color: white;
-		font-family: Quatro slab;
-		font-size: 36 px;
-		font-style: normal;
-	}
-}
-
-@media (max-width: 859px) {
-	h3 {
-		color: white;
-		font-family: Quatro Slab;
-		font-size: 12 px;
-    	padding-top: 35px;
-    	padding-bottom: 35px;
-		border-top-color: #31393b;
-		border-top-style: dotted;
-		border-top-width: 1px;
-	}
-}
-
-@media (min-width: 860px) {
 	h3{
 		color: white;
 		font-family: Quatro Slab;
@@ -51,7 +25,6 @@ body {
 		border-top-style: dotted;
 		border-top-width: 1px;
 	}
-}
 
 h4 {
 	color: #555a5b;
@@ -104,8 +77,6 @@ button
 	position:absolute;
 	left:60px;
 	top:0px;
-
-	
 }
 
 a {
@@ -113,10 +84,41 @@ a {
 }
 
 .link{
-	float:none;
+	float:none
+	color: #555a5b;
+	font-size: 16 px;
 }
 
 .buttonbox{
 	position:relative;
 }
 
+@media (max-width: 859px) {
+	h2{
+		font-size: 12px;
+	}
+	h3{font-size: 18px;
+	}
+	h4{font-size: 10px;
+	}
+	h5{font-size: 16px;
+	}
+	.content{width:20%;
+
+	}
+}
+
+@media (min-width: 860px) {
+	h2{
+		font-size: 18pt;
+	}
+	h3{font-size: 24px;
+	}
+	h4{font-size: 16px;
+	}
+	h5{font-size: 16px;
+	}
+	.content{width:30%;
+}
+
+h2, h3, h4, h5{transition-duration: 1s;}
