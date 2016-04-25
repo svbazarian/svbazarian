@@ -1,0 +1,35 @@
+h1{	
+	top: 1%;
+	left: 3%;
+	font-size: 24px;
+	position: fixed;
+	font-family: helvetica;
+}
+
+nav{
+	top: 1%;
+	left: 72%;
+	float: right;
+	position: fixed;
+} 
+
+a {
+	float: left;
+	padding: 10px;
+	color: black;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.left{
+	position:block;
+	margin-right: 50%;
+}
+
+.right{
+	position:block;
+	float:right;
+	margin-left: 50%;
+}
