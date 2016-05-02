@@ -1,7 +1,7 @@
 h1{	
 	top: 1%;
 	left: 3%;
-	font-size: 24px;
+	font-size: 26px;
 	position: fixed;
 	font-family: helvetica;
 }
@@ -11,25 +11,65 @@ nav{
 	left: 72%;
 	float: right;
 	position: fixed;
+	background-color:white;
 } 
 
-a {
-	float: left;
-	padding: 10px;
-	color: black;
+nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+	padding-top: 100px;
 	font-family: helvetica;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
-	text-decoration: none;
 }
 
-.left{
-	position:block;
-	margin-right: 50%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.right{
-	position:block;
-	float:right;
-	margin-left: 50%;
+li {
+    float: left;
 }
+
+/* Change the text decoration to line through on hover */
+li a:hover {
+	position: relative;
+    text-decoration: line-through;
+}
+
+.thumbnails a {
+	display: block;
+    text-align: center;
+	float: left;
+	margin-top: 100px;
+	margin-left: 3%;
+	position:relative;
+}
+
+.thumbnail{
+	width: 550px;
+}
+
+h2{
+	opacity: 0;
+	position: absolute;
+	text-align:center;
+	color:white;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+	height: 100%;
+}
+
+/* Change the opacity on hover */
+h2:hover{
+	opacity:;
+}
+
