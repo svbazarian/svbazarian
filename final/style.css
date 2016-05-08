@@ -65,11 +65,12 @@ article {
 }
 
 .content{
-	width:30%;
+	width:350px;
 	float:right;
-	margin-right:15%;
+	margin-left:55%;
 	margin-top: 20px;
 	padding-bottom: 350px;
+	position: fixed;
 }
 
 .thumbnails a {
@@ -81,6 +82,10 @@ article {
 	position:relative;
 }
 
+h2 {
+	font-family: helvetica;
+		font-size: 21px;
+	}
 
 h3 {
 		font-family: helvetica;
@@ -88,13 +93,8 @@ h3 {
 		text-decoration: underline;
 	}
 
-	h4{
-		font-family: helvetica;
-		font-size: 14px;
-		text-decoration: underline;
-	}
 
 p{
-		font-family: helvetica;
+		font-family: Georgia;
 		font-size: 14px;
 	}

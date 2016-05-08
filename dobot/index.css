@@ -1,3 +1,4 @@
+
 body {
 	background-color: #1b2326;
 	padding-left: 80px;
@@ -102,11 +103,11 @@ a {
 	}
 	h5{font-size: 12px;
 	}
-	.content{width:20%;
+	.content{
+		width:20%;
 		float:none;
 		margin-right: 1%;
 		padding-bottom: 3%;
-		width: 75%;
 	}
 	article{
 		float: none;
